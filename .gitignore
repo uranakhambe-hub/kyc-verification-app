@@ -1,0 +1,4 @@
+.env
+kyc.db
+__pycache__/
+venv/
