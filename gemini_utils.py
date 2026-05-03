@@ -3,7 +3,7 @@ import json
 import re
 import os
 
-genai.configure(api_key=os.getenv("AIzaSyCbjCd8qKyUhVacHnwwX92MYCqy2nxIia8"))
+genai.configure(api_key=os.getenv("YOUR_API_KEY"))
 
 model = genai.GenerativeModel("gemini-2.5-flash")
 
